@@ -1,7 +1,8 @@
 # board
-一个小型的五子棋程序。
+
+> 一个小型的五子棋程序。
 
 
 
-
-作者：Computercfan
+| -----: | -: |
+|作者|Computercfan|

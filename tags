@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANSIC_CODE_H_	vt.h	2;"	d
+BD0	board.h	22;"	d
+BD1	board.h	23;"	d
+BD2	board.h	24;"	d
+BLACK	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+BLACK_CHESS	board.h	/^enum {BLACK_CHESS = 1, WHITE_CHESS};$/;"	e	enum:__anon1
+BLUE	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+BOARD_H_	board.h	2;"	d
+GREEN	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+HBOX	board.h	15;"	d
+HL	board.h	18;"	d
+HX	board.h	10;"	d
+PURPLE	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+RED	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+SGREEN	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+VBOX	board.h	16;"	d
+VL	board.h	19;"	d
+VX	board.h	11;"	d
+WHITE	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+WHITE_CHESS	board.h	/^enum {BLACK_CHESS = 1, WHITE_CHESS};$/;"	e	enum:__anon1
+YELLOW	vt.h	/^	BLACK=30,RED,GREEN,YELLOW,BLUE,PURPLE,SGREEN,WHITE$/;"	e	enum:__anon2
+back_cursor_xy	vt.c	/^void back_cursor_xy(void)$/;"	f
+check_if_win	board.c	/^int check_if_win(int x, int y)$/;"	f
+clear_screen	vt.c	/^void clear_screen(void)$/;"	f
+draw_board	board.c	/^void draw_board(int x, int y, int hl, int vl)$/;"	f
+draw_hline	vt.c	/^void draw_hline(int x, int y, int ch, int len)$/;"	f
+draw_imessage	board.c	/^void draw_imessage(void)$/;"	f
+draw_vline	vt.c	/^void draw_vline(int x, int y, int ch, int len)$/;"	f
+draw_vline2	board.c	/^void draw_vline2(int x, int y, int ch0, int ch1, int len)$/;"	f
+fall_chessman	board.c	/^void fall_chessman(int x, int y, int who)$/;"	f
+first_to_go	board.c	/^void first_to_go(void)$/;"	f
+flag_who	board.c	/^int flag_who = 0;	\/\/定义全局变量 用来判断比赛的两人的情况$/;"	v
+hidde_cursor	vt.c	/^void hidde_cursor(void)$/;"	f
+login	board.c	/^void login(void)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+passwd_default	board.c	/^char passwd_default[15] = "uplooking";$/;"	v
+putchar_xy	vt.c	/^void putchar_xy(int x, int y, int ch)$/;"	f
+save_cursor_xy	vt.c	/^void save_cursor_xy(void)$/;"	f
+set_attribute	vt.c	/^void set_attribute(int num)$/;"	f
+set_bg_colour	vt.c	/^void set_bg_colour(int col)$/;"	f
+set_bg_fg_colour	vt.c	/^void set_bg_fg_colour(int bg, int fg)$/;"	f
+set_fg_colour	vt.c	/^void set_fg_colour(int col)$/;"	f
+set_move_xy	vt.c	/^void set_move_xy(int x, int y)$/;"	f
+show_cursor	vt.c	/^void show_cursor(void)$/;"	f
+state	board.c	/^	char state[VBOX+1][HBOX+1] = {0};\/\/交点棋盘数组$/;"	v
+state	board.c	/^	char state[VBOX][HBOX] = {0};\/\/空心棋盘数组$/;"	v
+user_default	board.c	/^char user_default[10] = "root";$/;"	v
