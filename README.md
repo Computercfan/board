@@ -1,7 +1,12 @@
-# board
-一个小型的五子棋程序。
+board   
 
+========================
+****  
+### Author:Computercfan
+### E-mail:137032499@qq.com
+****  
 
-
-
-作者：Computercfan
+  ## 程序功能
+  
+  
+    一个小型的五子棋程序。
